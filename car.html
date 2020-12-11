@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/car.css">
+    <title>国美汽车</title>
+</head>
+
+<body>
+    <div class="car-container">
+    <!-- 顶部图片 -->
+        <div class="top">
+            <div class="top-bg wrap">
+                <a href="javascript:;" class="pic">
+                    <img src="./public/images/top-bg.jpg" alt="">
+                </a>
+                <a href="javascript:;" class="close-btn">
+                    <i>关闭</i> 
+                </a>
+            </div>
+        </div>
+        <!-- 顶部导航 -->
+        <div class="gome-topnav">
+            <div class="top-nav wrap">
+                <ul class="left">
+                    <li id="gome-entry">
+                        <a href="javascript:;">
+                            <i></i>
+                            国美首页
+                        </a>
+                    </li>
+                    <li class="gome-spacer"></li>
+                    <li id="gome-user">
+                       <b>
+                        <a href="javascript:;">国美会员</a>
+                        <i></i>
+                       </b>
+                    </li>
+                    <li id="login-link">
+                        <a href="javascript:;" class="login">登录</a>
+                        <a href="javascript:;" class="register">
+                            注册有礼
+                            <i></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="right clearfix">
+                    <li id="gome-link">
+                        <a href="javascript:;">我的订单</a>
+                    </li>
+                    <li id="gome-mygome">
+                        <b>
+                            <a href="javascript:;">我的国美</a>
+                            <i></i>
+                        </b>
+                        <div class="public-dropdown">
+                            <strong>我的国美，
+                                <a href="javascript:;">请登录！</a>
+                            </strong>
+                            <ul id="mygome-order">
+                                <li>
+                                    <a href="javascript:;">待处理订单</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">我的收藏</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="javacript:;">我的美店</a>
+                                </li>
+                            </ul>
+                            <ul id="mygome-coupon">
+                                <li><a href="javascript:;">我的优惠券</a></li>
+                            </ul>
+                            <p>足迹</p>
+                            <ul id="mygome-track">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gome-spacer"></li>
+                    <li id="gome-enterprise">
+                        <b>
+                            <a href="javascript:;">
+                                企业采购
+                            </a>
+                            <i></i>
+                        </b>
+                        <div class="public-dropdown">
+                            <a href="javascript:;"></a>
+                        </div>
+                    </li>
+                    <li id="gome-service">
+                        <b>
+                            <em></em>
+                            <a href="javascript:;">服务中心</a>
+                            <i></i>
+                        </b>
+                    </li>
+                    <li id="gome-sitemap">
+                        <b>
+                            <a href="javascript:;">网站导航</a>
+                            <i></i>
+                        </b>
+                    </li>
+                    <li class="gome-spacer"></li>
+                    <li id="gome-phone">
+                        <b>
+                            <em></em>
+                            <a href="javascript:;">手机国美</a>
+                            <i></i>
+                        </b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div class="gome-head wrap clearfix">
+            <div id="logo"></div>
+            <div id="topSearch">
+                <div class="searchbox">
+                    <form id="searchForm" action="" method="get">
+                        <div id="search-type-dropdown">
+                            <div class="search-type">
+                                <span>商品</span>
+                                <i></i>
+                            </div>
+                            <ul class="search-type-list">
+                                <li>商品</li>
+                                <li>店铺</li>
+                            </ul>
+                        </div>
+                        <label for="">车载记录仪</label>
+                        <input type="text" name="" id="searchInput">
+                        <button class="search-btn">搜索</button>
+                    </form>
+                    <a href="javascript:;" class="mk">
+                        <div class="voice-search"></div>
+                    </a>
+                </div>
+                <div class="hotkeyword">
+                    <a href="javascript:;">机油</a>
+                    <a href="javascript:;">行车记录仪</a>
+                    <a href="javascript:;">安全预警仪</a>
+                    <a href="javascript:;">滤清器</a>
+                    <a href="javascript:;">儿童安全座椅</a>
+                    <a href="javascript:;">洗车机/水枪</a>
+                    <a href="javascript:;">雨刷</a>
+                    <a href="javascript:;">冷暖箱</a>
+                    <a href="javascript:;">四季垫</a>
+                    <a href="javascript:;">电源</a>
+                    <a href="javascript:;">商品排行榜</a>
+                    <a href="javascript:;">热门推荐</a>
+                </div>
+            </div>
+            <div class="mygome-side">
+                <ul class="topmenu clearfix">
+                    <li>
+                        <span class="cartlinkbox">
+                            <a href="javascript:;">
+                                <em>
+                                    <span class="shopnum">
+                                        <span id="commerceItemQuantityId">0</span>
+                                        <i></i>
+                                    </span>
+                                </em>
+                                <span id="hdrcarttext">我的购物车</span>
+                                <b></b>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 汽车用品分类 -->
+        <div class="category-box">
+            <div class="category wrap" >
+                <div class="title">
+                    <h2>汽车用品分类</h2>
+                </div>
+                <ul class="mainnav clearfix">
+                    <li><a href="javascript:;">直降500</a></li>
+                    <li><a href="javascript:;">轮胎满999减100</a></li>
+                    <li><a href="javascript:;">内饰满99减5</a></li>
+                    <li><a href="javascript:;">机油满199减10</a></li>
+                    <li><a href="javascript:;">凌度满399减20</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="focus_banner">
+            <div id="slideBox">
+                <div class="bg">
+                    <a href="javascript:;">
+                        <img src="./public/images/banner.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- 搜索 -->
+            <div class="goods_search_bg"></div>
+            <div class="goods_search">
+                <div class="goods_search_inner">
+                    <h3>用品查询</h3>
+                    <select name="" id="" class="select_type">
+                        <option value="">选择类型</option>
+                        <option value="">车载电器</option>
+                        <option value="">养护配件</option>
+                        <option value="">美容清洁</option>
+                        <option value="">车饰精品</option>
+                        <option value="">安全自驾</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">选择品类</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">选择品牌</option>
+                    </select>
+                    <button class="select_search">查询</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/car.js"></script>
+</body>
+
+</html>
